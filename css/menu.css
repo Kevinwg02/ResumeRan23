@@ -1,0 +1,22 @@
+.menu{
+    position: sticky;
+    top: 0%;
+    padding: 1.5% 5%;
+    background: rgb(82, 8, 166);
+    text-align: center;
+}
+.menu a:hover{
+    background: rgb(218, 217, 230);
+    padding:1.5% 0%;
+    padding-left: 2%;
+    padding-right: 2%;
+    color: black;
+    
+}
+.menu a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding-left: 2%;
+    padding-right: 2%;
+}
