@@ -1,11 +1,12 @@
 # ResumeRan23
 
 #stillindevelopment 
-This is a very simplistic version of my 2023 resume. The menu sticks to the top of the page when you scroll down. 
+This is a very simplistic version of my 2023 resume.  
 ![main](https://github.com/Kevinwg02/ResumeRan23/assets/71637950/05deed41-99ee-4c7a-921e-f5c78cb6ab82)
 
-The pictures opens in a modal to appear bigger.
+The menu sticks to the top of the page when you scroll down.
 
+The pictures opens in a modal to appear bigger.
 
 ![projects](https://github.com/Kevinwg02/ResumeRan23/assets/71637950/8f2fa08b-938d-423f-a158-9848ac7d04e5)
 
