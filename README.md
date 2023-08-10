@@ -13,3 +13,5 @@ The pictures opens in a modal to appear bigger.
 
 The contact form is in progress I'll do it when I have the time.
 The progress bars might get a better design. I'm not thrilled of how it looks, especially the positions.
+readmetestimg:
+<img src="./attachements/git_img/main.PNG"></img>
