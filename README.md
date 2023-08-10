@@ -7,7 +7,7 @@ The menu sticks to the top of the page when you scroll down.
 
 The pictures opens in a modal to appear bigger.
 
-<img src="./attachements/git_img/projects.png"></img>
+<img src="./attachements/git_img/projects.PNG"></img>
 
 The skill section is in a grid with borders for now i don't know what to do with them yet. The progress bars might get a better design. I'm not thrilled of how it looks, especially the positions.
 
