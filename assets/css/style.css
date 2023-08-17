@@ -25,12 +25,6 @@ h2 {
 }
 
 
-
-
-
-
-
-
 .timelinecontainer {
   display: flex;
 }
@@ -48,39 +42,16 @@ h2 {
   /* background-color: blue; */
 }
 
-.timelineblock, .timelinedate{
+.timelineblock{
   padding-bottom: 5%;
 }
-.timelinedate{
-  padding-bottom: 485%;
+
+.date{
+  position: relative;
+  left: -100px;
+  top:30px;
 }
 
-
-
-
-
-
-
-
-.project_img {
-  text-align: center;
-}
-
-.project_img img {
-  cursor: pointer;
-  vertical-align: baseline;
-  transition: 0.3s;
-  border-radius: 4%;
-  width: 25%;
-  border: solid 0.5px rgb(82, 8, 166);
-  width: 250px;
-  height: 150px;
-  object-fit: cover;
-}
-
-.project_img img:hover {
-  opacity: 0.7;
-}
 
 .container,
 .row {
