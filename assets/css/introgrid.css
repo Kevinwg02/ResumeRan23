@@ -8,6 +8,7 @@
 .undertitle {
   grid-column: 1;
 }
+
 .mypic {
   margin: auto;
   grid-column: 2;
@@ -18,6 +19,7 @@
   grid-column: span 2;
   margin-right: 10%;
 }
+
 .attachements {
   grid-column: span 2;
 }
@@ -29,6 +31,7 @@
   font-family: Bebas Neue, sans-serif;
   color: rgb(82, 8, 166);
 }
+
 .gridintro p,
 p {
   text-align: justify;

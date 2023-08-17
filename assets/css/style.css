@@ -19,43 +19,23 @@ main section {
 }
 
 h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h2,
+h3 {
   color: rgb(82, 8, 166);
-  font-size: 23px;
   font-family: Bebas Neue, sans-serif;
 }
 
 
-.timelinecontainer {
-  display: flex;
-}
-
-.timelinedatecontainer {
-  /* background-color: red; */
-  float: left;
-}
-
-.timelineblockcontainer {
-  text-align: justify ;
-  float: right;
-  padding-left: 5%;
-  border-left: 1px black solid;
-  /* background-color: blue; */
-}
-
-.timelineblock{
-  padding-bottom: 5%;
-}
-
-.date{
-  position: relative;
-  left: -100px;
-  top:30px;
-}
-
-
+/* skills */
 .container,
 .row {
-  /* border: 0.5px solid black; */
   padding-left: 10%;
   padding-right: 10%;
 }
@@ -66,11 +46,10 @@ h2 {
   border-style: dotted;
 }
 
-.socialsactuallinks a {
-  color: whitesmoke;
-  text-decoration: none;
-  padding-right: 2%;
+progress {
+  accent-color: rgb(82, 8, 166);
 }
+
 
 footer {
   position: relative;
@@ -79,4 +58,10 @@ footer {
   height: 250px;
   width: 100%;
   background: rgb(82, 8, 166);
+}
+
+.socialsactuallinks a {
+  color: whitesmoke;
+  text-decoration: none;
+  padding-right: 2%;
 }
