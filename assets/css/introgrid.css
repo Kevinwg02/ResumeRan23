@@ -1,0 +1,57 @@
+.gridintro {
+  margin-top: 10%;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.undertitle {
+  grid-column: 1;
+}
+.mypic {
+  margin: auto;
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.quick {
+  grid-column: span 2;
+  margin-right: 10%;
+}
+.attachements {
+  grid-column: span 2;
+}
+
+.titre,
+.titre h1 {
+  margin: auto;
+  font-size: 2.5em;
+  font-family: Bebas Neue, sans-serif;
+  color: rgb(82, 8, 166);
+}
+.gridintro p,
+p {
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mypic img {
+  border-radius: 50%;
+  width: 200px;
+  border: solid rgb(82, 8, 166);
+  background: rgb(82, 8, 166);
+}
+
+.attachements {
+  border: solid 0.5px rgb(113, 107, 125);
+  border-radius: 5px;
+  margin-bottom: 30%;
+  padding: 1% 1%;
+}
+
+.dl_div a {
+  float: right;
+  color: rgb(82, 8, 166);
+  text-decoration: none;
+}

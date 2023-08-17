@@ -1,26 +1,19 @@
-* {
+:root {
   font-size: 15px;
   font-family: Roboto, sans-serif;
 }
-.titre,
-.titre h1 {
-  margin: auto;
-  font-size: 2.5em;
-  font-family: Bebas Neue, sans-serif;
-  color: rgb(82, 8, 166);
-}
-a {
-  text-decoration: none;
-}
+
 body {
   offset-anchor: 50%;
   padding: 0%;
   margin: 0%;
+  scroll-behavior: smooth;
 }
 
 main section {
-  margin-left: 20%;
-  margin-right: 10%;
+  /* margin-top: unset; */
+  margin-left: 15%;
+  margin-right: 15%;
   margin-bottom: 20%;
   scroll-margin-top: 5em;
 }
@@ -31,31 +24,43 @@ h2 {
   font-family: Bebas Neue, sans-serif;
 }
 
-.gridintro p,
-p {
-  text-align: justify;
-  margin-left: auto;
-  margin-right: auto;
+
+
+
+
+
+
+
+.timelinecontainer {
+  display: flex;
 }
 
-.mypic img {
-  border-radius: 50%;
-  width: 200px;
-  border: solid rgb(82, 8, 166);
-  background: rgb(82, 8, 166);
+.timelinedatecontainer {
+  /* background-color: red; */
+  float: left;
 }
 
-.attachements {
-  border: solid 0.5px rgb(113, 107, 125);
-  border-radius: 5px;
-  margin-bottom: 30%;
-  padding: 1% 1%;
-}
-
-.dl_div a {
+.timelineblockcontainer {
+  text-align: justify ;
   float: right;
-  color: rgb(82, 8, 166);
+  padding-left: 5%;
+  border-left: 1px black solid;
+  /* background-color: blue; */
 }
+
+.timelineblock, .timelinedate{
+  padding-bottom: 5%;
+}
+.timelinedate{
+  padding-bottom: 485%;
+}
+
+
+
+
+
+
+
 
 .project_img {
   text-align: center;
@@ -80,6 +85,11 @@ p {
 .container,
 .row {
   /* border: 0.5px solid black; */
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.row {
   border-width: 0.1px;
   border-color: rgb(82, 8, 166);
   border-style: dotted;

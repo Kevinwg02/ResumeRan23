@@ -28,6 +28,17 @@
     cursor: pointer;
   }
   
+
+/* .form input {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  margin-bottom: 10%;
+  padding: 10px 25px;
+  cursor: pointer;
+} */
+
+
   .form .message {
     padding: 80px;
   }

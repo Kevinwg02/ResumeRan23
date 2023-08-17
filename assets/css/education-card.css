@@ -1,0 +1,38 @@
+header{
+    padding-left: 1%; padding-right: 5%;
+    background: rgb(82, 8, 166);
+    color: whitesmoke;
+    padding-bottom: 3%; 
+}
+.card {
+    background: rgb(219, 189, 254);
+    overflow: hidden;
+    width: min(70%);
+    margin-inline: auto;
+    font-size: 15px;
+    border-radius: 10px;
+}
+.timeline-container {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+}
+li{
+    list-style: none;
+}
+
+.degree {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2em;
+    text-decoration: underline;
+}
+
+.year {
+    font-size: 15px;
+}
+
+.place {
+    font-style: italic;
+    /* padding-bottom: 3%; */
+}
+

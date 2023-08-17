@@ -69,9 +69,9 @@ spanP.onclick = function () {
 };
 
 // dock
-var modalMD = document.getElementById("myModal_middledock");
-var imgMD = document.getElementById("dockimg");
-var modalImgMD = document.getElementById("modaltarget_middledock");
+var modalMD = document.getElementById("myModal_menu");
+var imgMD = document.getElementById("menuimg");
+var modalImgMD = document.getElementById("modaltarget_menu");
 var captionTextMD = document.getElementById("caption");
 imgMD.onclick = function () {
   modalMD.style.display = "block";

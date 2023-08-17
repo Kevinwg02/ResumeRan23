@@ -1,224 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>sidebar</title>
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="stylesheet" href="assets/css/menu.css" class="css" />
-    <link rel="stylesheet" href="assets/css/grid.css" />
-    <link rel="stylesheet" href="assets/css/contact.css" />
-    <link rel="stylesheet" href="assets/css/modal.css" />
 
-    <!-- fonts -->
-    <link rel="stylesheet" href="assets/fonts/bebas.css" />
-    <link rel="stylesheet" href="assets/fonts/oswald.css" />
-    <link rel="stylesheet" href="assets/fonts/roboto.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resume2023</title>
 
-    <!-- icon link -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <!-- bootsrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
-      crossorigin="anonymous"
-    />
-  </head>
+  <!-- fonts -->
+  <link rel="stylesheet" href="assets/fonts/bebas.css" />
+  <link rel="stylesheet" href="assets/fonts/oswald.css" />
+  <link rel="stylesheet" href="assets/fonts/roboto.css" />
 
-  <body>
-    <section class="menu">
-      <a href="#intro" id="link 1">Quick Intro</a>
-      <a href="#educations" id="link 2">Education</a>
-      <a href="#competence" id="link 2">Competence</a>
-      <a href="#xp" id="link 3">Experiences</a>
-      <a href="#projects" id="link 4">Projets</a>
-      <a href="#contact" id="link 5">Contact</a>
-    </section>
+  <!-- icon link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <!-- bootsrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
+  <!-- custom css -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/menu.css" class="css" />
+  <link rel="stylesheet" href="assets/css/introgrid.css" />
+  <link rel="stylesheet" href="assets/css/contact.css" />
+  <link rel="stylesheet" href="assets/css/projectmodal.css" />
+  <link rel="stylesheet" href="assets/css/timeline.css">
 
-    <main>
-      <section class="intro" id="intro">
-        <div class="Intro">
-          <div class="gridintro">
-            <div class="titre">
-              <h1>Mon Nom</h1>
-            </div>
-            <div class="undertitle">
-              <h2>Sous titre</h2>
-            </div>
-            <div class="mypic">
-              <img src="assets/images/me.jpg" alt="kevpic" />
-            </div>
+</head>
 
-            <p class="quick">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet
-              non, a nisi distinctio quidem fugiat quas id magnam aliquam
-              praesentium excepturi veniam labore veritatis aperiam qui libero
-              harum quia dolor dolores quasi voluptate laboriosam error? Tempora
-              repellat non voluptates eos praesentium molestias earum rerum odio
-              minima nisi repudiandae, vitae ea, esse ullam dolores accusantium
-              expedita ad aperiam accusamus incidunt! Dolor, voluptatum quas
-              expedita deserunt perferendis laudantium, numquam eius, possimus
-              neque tenetur velit magnam asperiores aliquid natus ipsa quaerat
-              ab. Rerum, error quasi! Eaque mollitia similique amet vero
-              temporibus molestias laudantium voluptatem eos praesentium officia
-              nemo, saepe laboriosam accusantium ratione? Corrupti.
-            </p>
-            <div class="attachements">
-              <div class="dl_div">
-                <label for="dl_btn" id="dl_label" class="dl_label"
-                  >Download a PDF version</label
-                >
-                <a
-                  href="attachements/2023 CV2.pdf"
-                  target="_blank"
-                  name="dl_btn"
-                  class="dl_btn"
-                  >Download</a
-                >
-              </div>
+<body>
+  <section class="menu">
+    <a href="#intro" id="">Quick Intro</a>
+    <!-- <a href="#educations" id="educationlink" onclick="myFunction()">Education</a> -->
+    <!-- <a href="#xp" id="link 3">Experiences</a> -->
+    <a href="#competence">Competence</a>
+    <a href="#projects">Projets</a>
+    <a href="#timeline">Timeline</a>
+    <a href="#contact">Contact</a>
+  </section>
+
+  <main>
+    <section class="intro" id="intro">
+      <div class="Intro">
+        <div class="gridintro">
+          <div class="titre">
+            <h1>WAAG Kevin</h1>
+          </div>
+          <div class="undertitle">
+            <h2>This is me.</h2>
+          </div>
+          <div class="mypic">
+            <img src="assets/images/me.jpg" alt="kevpic" />
+          </div>
+
+          <p class="quick">
+            I build and fix computers, build website sites, take really nice pictures, I taught english a
+            bit. I love to swim, rollerskate, skate, cycling, running. I'm also crazy for a good movie and tv show
+            night.
+          </p>
+          <div class="attachements">
+            <div class="dl_div">
+              <label for="dl_btn" id="dl_label" class="dl_label">Download a PDF version</label>
+              <a href="attachements/2023 CV2.pdf" target="_blank" name="dl_btn" class="dl_btn">Download</a>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section id="educations">
-        <h2>Educations</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
-          sunt dignissimos doloribus laudantium nemo nisi corrupti veniam
-          consequatur suscipit optio accusantium assumenda, magni animi
-          distinctio at eum provident velit possimus ducimus. Nulla deserunt
-          unde quas doloribus quidem natus, reprehenderit sit, fuga blanditiis
-          saepe incidunt. Facilis culpa provident nulla assumenda labore quaerat
-          totam rerum placeat dolore, corporis laudantium iusto voluptates dolor
-          expedita eum ipsam doloremque consequuntur eveniet ex ad ea atque
-          veniam sit accusamus? Voluptas placeat iste quis assumenda culpa
-          repudiandae architecto? Esse molestias, pariatur explicabo quia
-          ratione non ad unde necessitatibus asperiores eum error fugit,
-          aspernatur officia porro illo rerum adipisci ut dolorum harum.
-          Quibusdam porro temporibus numquam voluptates accusamus doloribus fuga
-          distinctio officia repellat nesciunt tempora dignissimos ea,
-          perspiciatis debitis ipsa omnis, quidem enim aspernatur, ullam ab
-          culpa. Aliquid molestiae aperiam sit repudiandae facilis veritatis
-          aliquam. Aperiam accusantium doloremque voluptates eaque autem porro,
-          tenetur quod numquam minus velit eum quibusdam qui illum omnis quasi
-          eius illo voluptas? Ipsam in quis officia ex, nulla veritatis, totam
-          nisi sint corrupti autem beatae aut facilis! At voluptate architecto
-          facere perferendis, quia reprehenderit nam laborum ab aspernatur
-          veniam tenetur totam, dicta, doloremque officia aliquam minus quidem
-          expedita adipisci nisi ullam sit? Incidunt aliquam, in eaque
-          blanditiis assumenda quae? Nulla deleniti id illum adipisci odio
-          fugiat vitae autem odit, similique nostrum laboriosam. Ad enim ipsam
-          sint odio totam nesciunt repellendus nostrum aliquam consectetur quo
-          dolorum nisi rerum exercitationem aut est, eum esse sunt consequatur
-          iure blanditiis? Quod error saepe, ipsa fugit, nesciunt doloribus eum
-          ullam, amet libero voluptate incidunt. Omnis consequatur ut ea
-          quisquam commodi ratione rem consectetur sequi. Qui architecto maxime
-          praesentium atque, iusto tempora debitis nihil pariatur ipsum rem quas
-          error quod, reiciendis veritatis nisi similique voluptas inventore
-          quos dolor. Molestias minus illum error placeat enim! Ullam harum
-          similique dolores, amet numquam alias laboriosam rerum odio. Minus
-          error odio assumenda voluptatum magnam! Sint, incidunt? Inventore iste
-          quisquam reprehenderit dolores dolore iusto, voluptates amet deleniti
-          ducimus minima dolor cumque fuga eius aliquid magni nesciunt quidem
-          ipsum illo. Consectetur, harum. Eveniet doloribus optio blanditiis
-          molestias mollitia consequuntur sapiente ipsa in quam autem numquam,
-          aliquam nam vitae ad. Minima aperiam, officiis ullam tempore ipsa illo
-          veniam incidunt corporis necessitatibus nemo autem maxime quaerat
-          dolorum nobis. Consequatur itaque eos necessitatibus officiis ipsum.
-          Laboriosam ipsa, quas voluptates ipsum non cumque id labore
-          reprehenderit consequuntur qui temporibus, atque nulla illum nisi,
-          repellat ducimus fugiat at optio modi! Excepturi doloremque, pariatur
-          aut necessitatibus impedit, aliquid cupiditate ab incidunt odio autem
-          accusamus deserunt! Iste quidem odio nam id, quos, consequatur rerum
-          veniam repudiandae natus itaque excepturi ex neque laboriosam officiis
-          rem eius blanditiis perspiciatis corporis impedit ea. Rem, facere
-          delectus! Ratione tempora corporis temporibus est ad exercitationem,
-          dignissimos aspernatur excepturi expedita atque ex quia sapiente eos
-          maiores nesciunt culpa tempore iure, aliquid ducimus? Laborum delectus
-          soluta, rem dolorum cumque reiciendis sit non libero officia nulla
-          corporis recusandae quibusdam doloremque enim reprehenderit doloribus
-          dolorem animi beatae quidem repellendus! Sapiente animi debitis aut
-          voluptates tempore iure dolorum officia, ad dolor natus ut!
-        </p>
-      </section>
+    <section id="timeline">
+      <h2>Timeline</h2>
+      <div class="timelinecontainer">
+        <div class="timelinedatecontainer">
+          <div class="timelinedate">2012</div>
+          <div class="timelinedate">2012</div>
+          <div class="timelinedate">2012</div>
+          <div class="timelinedate">2012</div>
+          <div class="timelinedate">2012</div>
+          <div class="timelinedate">2012</div>
+          <div class="timelinedate">2012</div>
+          <div class="timelinedate">2012</div>
+          <div class="timelinedate">2012</div>
+          <div class="timelinedate">2012</div>
+        </div>
+        <div class="timelineblockcontainer">
+          <div class="timelineblock">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa eveniet porro delectus, fugit obcaecati nostrum minima dolorem modi similique nam nulla numquam quas sunt inventore voluptate tempore deleniti culpa tenetur. A, natus? Reprehenderit fuga suscipit, sapiente molestias accusantium rerum, eius rem esse excepturi quam amet ducimus magnam vitae nemo explicabo.</div>
+          <div class="timelineblock">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa eveniet porro delectus, fugit obcaecati nostrum minima dolorem modi similique nam nulla numquam quas sunt inventore voluptate tempore deleniti culpa tenetur. A, natus? Reprehenderit fuga suscipit, sapiente molestias accusantium rerum, eius rem esse excepturi quam amet ducimus magnam vitae nemo explicabo.</div>
+          <div class="timelineblock">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa eveniet porro delectus, fugit obcaecati nostrum minima dolorem modi similique nam nulla numquam quas sunt inventore voluptate tempore deleniti culpa tenetur. A, natus? Reprehenderit fuga suscipit, sapiente molestias accusantium rerum, eius rem esse excepturi quam amet ducimus magnam vitae nemo explicabo.</div>
+          <div class="timelineblock">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa eveniet porro delectus, fugit obcaecati nostrum minima dolorem modi similique nam nulla numquam quas sunt inventore voluptate tempore deleniti culpa tenetur. A, natus? Reprehenderit fuga suscipit, sapiente molestias accusantium rerum, eius rem esse excepturi quam amet ducimus magnam vitae nemo explicabo.</div>
+          <div class="timelineblock">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa eveniet porro delectus, fugit obcaecati nostrum minima dolorem modi similique nam nulla numquam quas sunt inventore voluptate tempore deleniti culpa tenetur. A, natus? Reprehenderit fuga suscipit, sapiente molestias accusantium rerum, eius rem esse excepturi quam amet ducimus magnam vitae nemo explicabo.</div>
+          <div class="timelineblock">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa eveniet porro delectus, fugit obcaecati nostrum minima dolorem modi similique nam nulla numquam quas sunt inventore voluptate tempore deleniti culpa tenetur. A, natus? Reprehenderit fuga suscipit, sapiente molestias accusantium rerum, eius rem esse excepturi quam amet ducimus magnam vitae nemo explicabo.</div>
+          <div class="timelineblock">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa eveniet porro delectus, fugit obcaecati nostrum minima dolorem modi similique nam nulla numquam quas sunt inventore voluptate tempore deleniti culpa tenetur. A, natus? Reprehenderit fuga suscipit, sapiente molestias accusantium rerum, eius rem esse excepturi quam amet ducimus magnam vitae nemo explicabo.</div>
+          <div class="timelineblock">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa eveniet porro delectus, fugit obcaecati nostrum minima dolorem modi similique nam nulla numquam quas sunt inventore voluptate tempore deleniti culpa tenetur. A, natus? Reprehenderit fuga suscipit, sapiente molestias accusantium rerum, eius rem esse excepturi quam amet ducimus magnam vitae nemo explicabo.</div>
+          <div class="timelineblock">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa eveniet porro delectus, fugit obcaecati nostrum minima dolorem modi similique nam nulla numquam quas sunt inventore voluptate tempore deleniti culpa tenetur. A, natus? Reprehenderit fuga suscipit, sapiente molestias accusantium rerum, eius rem esse excepturi quam amet ducimus magnam vitae nemo explicabo.</div>
+          <div class="timelineblock">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa eveniet porro delectus, fugit obcaecati nostrum minima dolorem modi similique nam nulla numquam quas sunt inventore voluptate tempore deleniti culpa tenetur. A, natus? Reprehenderit fuga suscipit, sapiente molestias accusantium rerum, eius rem esse excepturi quam amet ducimus magnam vitae nemo explicabo.</div>
 
-      <section id="xp">
-        <h2>Experiences</h2>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam quia et
-          aliquam, reprehenderit, odio nostrum dolorem adipisci fugit doloribus
-          consectetur itaque excepturi amet inventore cupiditate ratione
-          impedit. Maxime ex cumque blanditiis vel temporibus, laboriosam, nobis
-          perferendis quia exercitationem unde corporis, impedit iusto velit
-          necessitatibus optio? Eaque pariatur nulla aliquam amet? Molestiae eos
-          reprehenderit modi optio magnam sequi dolor beatae sunt, aliquam
-          voluptates temporibus debitis quisquam error quis sed tempore id
-          necessitatibus! Iste neque quod error optio, nostrum totam. Voluptate
-          aliquid eum dignissimos eius odit velit sint enim cupiditate hic
-          praesentium. Ea, quas nulla deserunt adipisci eveniet dicta porro
-          optio blanditiis deleniti autem quasi minima, excepturi fugit, dolores
-          amet reprehenderit hic sit at eligendi. Magni corporis accusamus
-          mollitia accusantium debitis ex reiciendis doloribus molestiae
-          veritatis odit dolorem dignissimos numquam rerum nesciunt eligendi,
-          incidunt magnam aut voluptate, voluptatum ad at. Iure ullam ab
-          recusandae quam distinctio ratione aspernatur est, adipisci nisi
-          veniam alias. Nesciunt atque corrupti nisi consequuntur tenetur
-          exercitationem minus dolores, eum illum ullam, possimus ipsam
-          provident in vitae repellat incidunt? Deleniti, possimus est. Natus
-          accusantium minima molestiae odio inventore impedit? Esse tempora
-          sunt, numquam quia nisi repudiandae ea dolorem quaerat fugiat debitis
-          officia vel, assumenda quibusdam error perspiciatis quo? Officiis quos
-          quasi sed molestias quod possimus eos rem molestiae sequi ex, ea
-          adipisci magnam, quas eveniet. Fuga dolor quibusdam beatae possimus
-          nobis est nihil dolorem officiis harum praesentium amet quo ad
-          explicabo consequatur deleniti nulla sapiente, fugit in maiores
-          corporis aperiam inventore enim ipsa laboriosam! Obcaecati, dolorem
-          deleniti. Vero sed nihil autem aspernatur fugit harum doloribus iure
-          neque iste amet, laudantium hic natus dolores sequi placeat itaque
-          incidunt quod facere quis vel. Saepe minima rerum porro cum tempore
-          nulla consectetur vero obcaecati odit voluptatum illum voluptates
-          numquam sit libero laudantium delectus quidem earum consequatur
-          voluptatibus aliquam facere ipsa, amet unde! Eaque vel cum placeat
-          minima, autem quasi quas, eius suscipit facere rem inventore cumque
-          dicta. Ipsum commodi culpa ea a, corrupti dolore at distinctio ipsa.
-          Deleniti, quasi laudantium similique odio ab natus sit? Odit excepturi
-          quaerat officia, tempore voluptatum mollitia ratione illo quisquam,
-          repudiandae aliquid eligendi ducimus ut fugiat molestiae quae nihil
-          impedit optio repellat sit fugit officiis explicabo ullam aspernatur?
-          Quos deserunt earum dolore. Architecto consequatur esse, sed
-          laboriosam minus, voluptas tempora non nemo dignissimos rem ratione
-          doloribus. Natus, reiciendis, quod temporibus, nihil voluptate
-          corrupti mollitia maxime veniam velit assumenda et sed quasi obcaecati
-          ullam iusto ab quam sit repellendus at expedita hic perferendis.
-          Officiis amet fugiat fuga saepe explicabo distinctio tempore at
-          corrupti placeat? Amet et atque debitis magnam impedit ipsa ipsum
-          voluptatibus deleniti quasi beatae sed ad ea saepe, culpa neque
-          dignissimos nisi nobis iure repudiandae aut. Iste necessitatibus quia
-          nam impedit pariatur perferendis ut optio est quidem quos nobis,
-          quisquam ducimus deleniti magni, eius, laboriosam reiciendis.
-          Temporibus, repellat beatae hic nesciunt aperiam accusamus tempore
-          aspernatur? Amet aliquam aperiam quibusdam harum exercitationem nisi
-          nulla consectetur, mollitia in asperiores debitis repellendus
-          excepturi commodi velit veritatis ullam quod culpa eligendi cupiditate
-          sapiente? Magnam, aperiam. At laboriosam perferendis eligendi
-          voluptatem.
-        </p>
-      </section>
+        </div>
+      </div>
 
       <section id="projects">
         <h2>A few Projets</h2>
         <!-- everyimgprojects -->
         <div class="project_img">
           <img src="assets/images/rps.png" alt="Rps_Picture" id="rpsimg" />
-          <img src="assets/images/miniblog.png" alt="Miniblog_Picture" id="miniblogimg"/>
-          <img src="assets/images/puissance4.png" alt="Puissance4_Picture" id="puissance4img"/>
+          <img src="assets/images/miniblog.png" alt="Miniblog_Picture" id="miniblogimg" />
+          <img src="assets/images/puissance4.png" alt="Puissance4_Picture" id="puissance4img" />
           <img src="assets/images/login.png" alt="Login_Concept" id="loginimg" />
-          <img src="assets/images/midlle_dock.png" alt="Dock_Picture" id="dockimg" />
+          <img src="assets/images/menu.png" alt="menu" id="menuimg" />
         </div>
         <!-- The Modals -->
         <div id="everymodalprojects">
@@ -242,9 +129,9 @@
             <img class="modal-content" id="modaltarget_login" />
             <div id="caption"></div>
           </div>
-          <div id="myModal_middledock" class="modal">
+          <div id="myModal_menu" class="modal">
             <span class="closeMD" class="close">&times;</span>
-            <img class="modal-content" id="modaltarget_middledock" />
+            <img class="modal-content" id="modaltarget_menu" />
             <div id="caption"></div>
           </div>
         </div>
@@ -368,40 +255,39 @@
         <h2>Contact</h2>
         <div class="form">
           <form action="sent.html" method="post">
-            <input type="text" placeholder="lastname" />
-            <input type="text" placeholder="firstname" /><br />
-            <input type="email" placeholder="email" /> <br />
-            <input
-              type="text"
-              placeholder="your message here"
-              class="message"
-            />
+            <!-- <label for="lastname">Lastname</label><br /> -->
+            <input type="text" placeholder="Last Name" />
+            <!-- <label for="firstname">firstname</label><br /> -->
+            <input type="text" placeholder="First Name" /><br />
+            <!-- <label for="email">email</label><br /> -->
+            <input type="email" placeholder="email@email.com" /> <br />
+            <input type="text" placeholder="your message here" class="message" />
             <br />
             <input type="submit" value="envoyer" />
           </form>
         </div>
       </section>
-    </main>
-    <footer>
-      <div class="socials">
-        <a href="#" class="infoicon fa fa-envelope"></a>
-        <a href="#" class="fa fa-linkedin"></a>
-        <a href="#" class="fa fa-instagram"></a>
-        <a href="#" class="infoicon fa fa-car"></a>
-        <a href="#" class="infoicon fa fa-home"></a>
-      </div>
-      <div class="socialsactuallinks">
-        <a href="#">test links</a>
-        <a href="#">test links</a>
-        <a href="#">test links</a>
-        <a href="#">test links</a>
-        <a href="#">test links</a>
-      </div>
-    </footer>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+  </main>
+  <footer>
+    <div class="socials">
+      <a href="#" class="infoicon fa fa-envelope"></a>
+      <a href="#" class="fa fa-linkedin"></a>
+      <a href="#" class="fa fa-instagram"></a>
+      <a href="#" class="infoicon fa fa-car"></a>
+      <a href="#" class="infoicon fa fa-home"></a>
+    </div>
+    <div class="socialsactuallinks">
+      <a href="#">test links</a>
+      <a href="#">test links</a>
+      <a href="#">test links</a>
+      <a href="#">test links</a>
+      <a href="#">test links</a>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+  <script src="assets/js/activated.js"></script>
+</body>
+
 </html>
