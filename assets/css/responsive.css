@@ -1,0 +1,26 @@
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 12px;
+    }
+
+    .mypic {
+        grid-column: 1;
+    }
+
+    .titre {
+        grid-column: 1;
+        font-size: 21px;
+    }
+
+    .gridintro {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .date {
+        font-size: 20px;
+        left: -80px;
+        top: 50px;
+    }
+
+
+}
