@@ -5,6 +5,14 @@
   grid-template-columns: repeat(2, 1fr);
 }
 
+.titre,
+.titre h1 {
+  margin: auto;
+  font-size: 2.5em;
+  font-family: Bebas Neue, sans-serif;
+  color: rgb(82, 8, 166);
+}
+
 .undertitle {
   grid-column: 1;
 }
@@ -22,14 +30,6 @@
 
 .attachements {
   grid-column: span 2;
-}
-
-.titre,
-.titre h1 {
-  margin: auto;
-  font-size: 2.5em;
-  font-family: Bebas Neue, sans-serif;
-  color: rgb(82, 8, 166);
 }
 
 .gridintro p,

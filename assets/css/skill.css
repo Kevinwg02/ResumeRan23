@@ -1,0 +1,21 @@
+.container,
+.row {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.row {
+  border-width: 0.1px;
+  border-color: var(--main-color);
+  border-style: dotted;
+}
+
+progress {
+  accent-color: var(--main-color);
+  padding: 3%;
+  width: 100%;
+}
+
+.competence p {
+  text-align: center;
+}

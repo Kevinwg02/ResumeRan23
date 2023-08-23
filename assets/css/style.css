@@ -1,9 +1,13 @@
 :root {
   font-size: 15px;
   font-family: Roboto, sans-serif;
+  --main-color: rgb(82, 8, 166);
+  --secondary-color: rgb(18, 5, 32);
+  --background-color: rgb(232, 231, 236);
 }
 
 body {
+  /* background-color: var(--background-color); */
   offset-anchor: 50%;
   padding: 0%;
   margin: 0%;
@@ -28,28 +32,9 @@ h3 {
 
 h2,
 h3 {
-  color: rgb(82, 8, 166);
+  color: var(--main-color);
   font-family: Bebas Neue, sans-serif;
 }
-
-
-/* skills */
-.container,
-.row {
-  padding-left: 10%;
-  padding-right: 10%;
-}
-
-.row {
-  border-width: 0.1px;
-  border-color: rgb(82, 8, 166);
-  border-style: dotted;
-}
-
-progress {
-  accent-color: rgb(82, 8, 166);
-}
-
 
 footer {
   position: relative;
@@ -57,7 +42,7 @@ footer {
   bottom: 90%;
   height: 250px;
   width: 100%;
-  background: rgb(82, 8, 166);
+  background: var(--main-color);
 }
 
 .socialsactuallinks a {

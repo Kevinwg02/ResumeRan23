@@ -1,3 +1,6 @@
+<?php
+  include 'assets/php/connexion.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -18,26 +21,28 @@
   <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" /> -->
   <!-- custom css -->
-  <link rel="stylesheet" href="assets/css/style.css"/>
-  <link rel="stylesheet" href="assets/css/menu.css"/>
-  <link rel="stylesheet" href="assets/css/introgrid.css"/>
-  <link rel="stylesheet" href="assets/css/contact.css"/>
-  <link rel="stylesheet" href="assets/css/projectmodal.css"/>
-  <link rel="stylesheet" href="assets/css/timeline.css"/>
-  <link rel="stylesheet" href="assets/css/responsive.css"/>
-
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/menu.css" />
+  <link rel="stylesheet" href="assets/css/introgrid.css" />
+  <link rel="stylesheet" href="assets/css/contact.css" />
+  <link rel="stylesheet" href="assets/css/projectmodal.css" />
+  <link rel="stylesheet" href="assets/css/timeline.css" />
+  <link rel="stylesheet" href="assets/css/responsive.css" />
+<link rel="stylesheet" href="assets/css/skill.css">
 </head>
 
 <body>
   <section class="menu">
-    <a href="#intro" id="">Quick Intro</a>
-    <a href="#projects">Projects</a>
+    <a href="#intro" id="">Intro</a>
+    <a href="#projects">Projets</a>
     <a href="#timeline">Timeline</a>
-    <a href="#competence">Skills</a>
+    <a href="#competence">Competence</a>
+    <a href="#loisir">Loisirs</a>
     <a href="#contact">Contact</a>
   </section>
 
   <main>
+
     <section class="intro" id="intro">
       <div class="Intro">
         <div class="gridintro">
@@ -158,8 +163,9 @@
         </div>
       </div>
     </section>
+
     <section id="projects">
-      <h2>A few Projets</h2>
+      <h2>Projets</h2>
       <!-- everyimgprojects -->
       <div class="project_img">
         <img src="assets/images/rps.png" alt="Rps_Picture" id="rpsimg" />
@@ -198,129 +204,53 @@
       </div>
       <script src="assets/js/modal.js"></script>
     </section>
+
     <section class="competence" id="competence">
       <h2>Competence</h2>
-      <!-- <style>.col{border:1px solid black;background:  red;}</style> -->
-      <div class="container text-center mx-auto">
-        <div class="row">
-          <div class="col">
-            <p>HTMl</p>
-          </div>
-          <div class="col">
-            <progress class="progressskill" value="90" max="100">80%</progress>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <p>Css</p>
-          </div>
-          <div class="col">
-            <progress value="90" max="100">80%</progress>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <p>js</p>
-          </div>
-          <div class="col">
-            <progress value="90" max="100">80%</progress>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <p>php</p>
-          </div>
-          <div class="col">
-            <progress value="90" max="100">80%</progress>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <p>mysql</p>
-          </div>
-          <div class="col">
-            <progress value="90" max="100">80%</progress>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <p>routeur</p>
-          </div>
-          <div class="col">
-            <progress value="90" max="100">80%</progress>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <p>Switch</p>
-          </div>
-          <div class="col">
-            <progress value="90" max="100">80%</progress>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <p>réseau</p>
-          </div>
-          <div class="col">
-            <progress value="90" max="100">80%</progress>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <p>linux</p>
-          </div>
-          <div class="col">
-            <progress value="90" max="100">80%</progress>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <p>windows</p>
-          </div>
-          <div class="col">
-            <progress value="90" max="100">80%</progress>
-          </div>
-        </div>
+      <div>
+        <p>HTMl</p>
+        <progress value="90" max="100">80%</progress>
       </div>
-
-      <!-- <div class="container">
-          <div class="row">
-            <div class="col" >
-              <p>HTMl</p>
-              <p>Css</p>
-              <p>js</p>
-              <p>php</p>
-              <p>Linux</p>
-              <p>réseau</p>
-              <p>Linux</p>
-              <p>Switch</p>
-              <p>Routeur</p>
-            </div>
-
-            <div class="col">
-              <progress value="90" max="100">80%</progress>
-              <progress value="70" max="100">80%</progress>
-              <progress value="60" max="100">80%</progress>
-              <progress value="40" max="100">80%</progress>
-              <progress value="30" max="100">80%</progress>
-              <progress value="20" max="100">80%</progress>
-              <progress value="20" max="100">80%</progress>
-              <progress value="20" max="100">80%</progress>
-              <progress value="20" max="100">80%</progress>
-            </div>
-          </div>
-        </div> -->
+      <div>
+        <p>Css</p> <progress value="70" max="100">80%</progress>
+      </div>
+      <div>
+        <p>js</p> <progress value="60" max="100">80%</progress>
+      </div>
+      <div>
+        <p>php</p><progress value="40" max="100">80%</progress>
+      </div>
+      <div>
+        <p>Linux</p> <progress value="30" max="100">80%</progress>
+      </div>
+      <div>
+        <p>réseau</p> <progress value="20" max="100">80%</progress>
+      </div>
+      <div>
+        <p>Linux</p> <progress value="20" max="100">80%</progress>
+      </div>
+      <div>
+        <p>Switch</p> <progress value="20" max="100">80%</progress>
+      </div>
+      <div>
+        <p>Routeur</p> <progress value="20" max="100">80%</progress>
+      </div>
+      </div>
+    </section>
+    <section id="loisir" class="hobby">
+      <div class="movie">
+        <h2>Loisirs</h2>
+        <?php while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) : ?> 
+            <p><?php echo htmlspecialchars($row['loisirs']); ?></p>
+         <?php endwhile; ?>
+        </div>
     </section>
     <section id="contact">
       <h2>Contact</h2>
       <div class="form">
         <form action="sent.html" method="post">
-          <!-- <label for="lastname">Lastname</label><br /> -->
           <input type="text" placeholder="Last Name" />
-          <!-- <label for="firstname">firstname</label><br /> -->
           <input type="text" placeholder="First Name" /><br />
-          <!-- <label for="email">email</label><br /> -->
           <input type="email" placeholder="email@email.com" /> <br />
           <input type="text" placeholder="your message here" class="message" />
           <br />
@@ -329,6 +259,7 @@
       </div>
     </section>
   </main>
+
   <footer>
     <div class="socials">
       <a href="#" class="infoicon fa fa-envelope"></a>
@@ -345,9 +276,7 @@
       <a href="#">test links</a>
     </div>
   </footer>
-  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
-  </script> -->
+
   <script src="assets/js/activated.js"></script>
 </body>
 
