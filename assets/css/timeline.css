@@ -23,3 +23,11 @@ span {
     font-weight: 200;
     font-style: italic;
 }
+
+.legendtimeline i {
+    color: var(--main-color);
+}
+
+.legendtimeline span,p {
+    padding-right: 15px;
+}

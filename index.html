@@ -1,5 +1,5 @@
 <?php
-  include 'assets/php/connexion.php';
+include 'assets/php/connexion.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -16,7 +16,10 @@
   <link rel="stylesheet" href="assets/fonts/roboto.css" />
 
   <!-- icon link -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" /> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- bootsrap -->
   <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" /> -->
@@ -28,7 +31,8 @@
   <link rel="stylesheet" href="assets/css/projectmodal.css" />
   <link rel="stylesheet" href="assets/css/timeline.css" />
   <link rel="stylesheet" href="assets/css/responsive.css" />
-<link rel="stylesheet" href="assets/css/skill.css">
+  <link rel="stylesheet" href="assets/css/skill.css">
+  <link rel="stylesheet" href="assets/css/sidenavbar.css">
 </head>
 
 <body>
@@ -37,12 +41,30 @@
     <a href="#projects">Projets</a>
     <a href="#timeline">Timeline</a>
     <a href="#competence">Competence</a>
-    <a href="#loisir">Loisirs</a>
-    <a href="#contact">Contact</a>
+    <!-- <a href="#loisir">Loisirs</a> -->
+    <a href="#contact" onclick="openNav()">Contact</a>
   </section>
 
+  <!-- <section class="sidenavbar" id="contact">
+    <sidebar id="sidebar">
+      <div>
+        <div class="exitsidenav" id="exitsidenav"> <a href="javascript:void(0)" class="closebtn"
+            onclick="closeNav()">&times;</a>
+        </div>
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-at"></i></a>
+        <a href="#"><i class="fa-solid fa-map-pin"></i></a>
+        <a href="#"></a>
+        <a href="#"></a>
+      </div>
+      <div class="downnav">
+        <img class="downnavimg" src="assets/images/me.jpg" alt="me">
+        <h1 class="imhere"> <a href="#id-section" onclick="showone()"> I'm Here</a> </h1>
+      </div>
+    </sidebar>
+  </section> -->
   <main>
-
     <section class="intro" id="intro">
       <div class="Intro">
         <div class="gridintro">
@@ -53,11 +75,11 @@
             <h2>This is me.</h2>
           </div>
           <div class="mypic">
-            <img src="assets/images/me.jpg" alt="kevpic" />
+            <img src="assets/images/me2.jpg" alt="kevpic" />
           </div>
 
           <p class="quick">
-            I build and fix computers, build website sites, take really nice pictures, I taught english a
+            I build and fix computers, build websites, take really nice pictures, I taught english a
             bit. I love to swim, rollerskate, skate, cycling, running. I'm also crazy for a good movie and tv show
             night.
           </p>
@@ -73,52 +95,59 @@
 
     <section id="timeline">
       <h2>Timeline</h2>
+      <h4>
+        <div class="legendtimeline">
+          <i class="fa-solid fa-medal"></i><span>Diplome</span>
+          <i class="fa-brands fa-phoenix-framework"></i><span>Stage</span>
+          <i class="fa-solid fa-briefcase"></i><span>Travail</span>
+        </div>
+      </h4>
       <div class="timelinecontainer">
         <div class="timelineblockcontainer">
           <div class="timelineblock">
             <div class="date">2023</div>
-            <h3> RAN</h3>
+            <h3> <i class="fa-solid fa-medal"></i> RAN </h3>
             <span>CESI, Reims 51100 </span> <br>
-            Réseaux locaux, Architecture réseau, Adressage IPV4 et IPV6,
-            HTML, CSS, JavaScript, Anglais, Algorithme
+            <p> Réseaux locaux, Architecture réseau, Adressage IPV4 et IPV6,
+              HTML, CSS, JavaScript, Anglais, Algorithme</p>
           </div>
           <div class="timelineblock">
             <div class="date">2021</div>
-            <h3>Stagiaire développeur web</h3>
+            <h3><i class="fa-brands fa-phoenix-framework"></i> Stagiaire développeur web</h3>
             <span> San Francisco Etat Unis <br></span>
             Refonte et développement d'une newsletter Design et développement du blog sur Oncord
           </div>
 
           <div class="timelineblock">
             <div class="date">2020</div>
-            <h3>DWWM </h3>
-            <span>AFPA,Laon 02000 <br></span>
+            <h3> <i class="fa-solid fa-medal"></i> DWWM </h3>
+            <span>AFPA, Laon 02000 <br></span>
             pécialisation web et validation de mon précédant BTS IRIS en 2014
             -HTML, CSS, Bootstrap, Javascript, PHP, MySQL, UML....}
           </div>
           <div class="timelineblock">
             <div class="date">2018</div>
-            <h3>TOIEC</h3>
+            <h3><i class="fa-solid fa-medal"></i> TOIEC</h3>
             <span> URCA, Reims 51100</span> <br>
             SCORE: 925/990
           </div>
           <div class="timelineblock">
             <div class="date">2019</div>
-            <h3>Intervenant Anglais </h3>
+            <h3><i class="fa-solid fa-briefcase"></i> Intervenant Anglais </h3>
             <span>language connexion, Laon 0200,</span> <br>
             Education de la langue anglaise à des enfants variants de 8 à 11 ans par le
             biais de chansons, vidéos, flashcards, exercices, jeux, cours....
           </div>
           <div class="timelineblock">
             <div class="date">2017</div>
-            <h3>LICENCE LLCER </h3>
+            <h3><i class="fa-solid fa-medal"></i> LICENCE LLCER </h3>
             <span> URCA, Reims 51100 </span><br>
             Etudes de Textes anglais, Civilisation anglaise, Traduction,
             Cours intensif sur la grammaire anglaise....
           </div>
           <div class="timelineblock">
             <div class="date">2016</div>
-            <h3>Technicien de maintenance</h3> <br>
+            <h3><i class="fa-solid fa-briefcase"></i> Technicien de maintenance</h3> <br>
             <span>Alliance Scolaire, Nouvelle Caledonie</span> <br>
             Maintenance Informatique et renouvellement du parc informatique (réseau,
             ordinateur, vidéoprojecteur), cours informatique pour collégiens
@@ -126,7 +155,7 @@
 
           <div class="timelineblock">
             <div class="date">2013</div>
-            <h3>Stagiaire Technicien Maintenance</h3> <br>
+            <h3><i class="fa-brands fa-phoenix-framework"></i> Stagiaire Technicien Maintenance</h3> <br>
             <span> UTC, 60200 Compiegne<br></span>
             Dépannage Réseaux<br>
             Cablage rj45 <br>
@@ -135,13 +164,13 @@
           </div>
           <div class="timelineblock">
             <div class="date">2012</div>
-            <h3>BTS IRIS</h3>
+            <h3> <i class="fa-solid fa-medal"></i> BTS IRIS</h3>
             <span>Lycée Pierre Méchain, 02000 Laon<br></span>
             Language Internet et objet (C, C++, C#, HTML, CSS)
           </div>
           <div class="timelineblock">
             <div class="date">2012</div>
-            <h3>GIE Convergence </h3>
+            <h3><i class="fa-brands fa-phoenix-framework"></i> GIE Convergence </h3>
             <span>Lycée Pierre Méchain, 02000 Laon</span>
             Installation/ Configuration 30 PC et 20 de Wyses
             Configuration imprimante réseau
@@ -149,14 +178,14 @@
 
           <div class="timelineblock">
             <div class="date">2011</div>
-            <h3>BAC SEN</h3>
+            <h3><i class="fa-solid fa-medal"></i> BAC SEN</h3>
             <span> Lycée Pierre Méchain, 02000 Laon</span><br>
             Spécialisation Numerique <br>
             Installation réseau, maintenance et montage pc, installation imprimante
           </div>
           <div class="timelineblock">
             <div class="date">2009</div>
-            <h3>BEP SEN</h3>
+            <h3><i class="fa-solid fa-medal"></i> BEP SEN</h3>
             <span> Lycée Pierre Méchain, Laon 02000</span> <br>
             Installation, mise en service, intervention , maintenance
           </div>
@@ -237,15 +266,9 @@
       </div>
       </div>
     </section>
-    <section id="loisir" class="hobby">
-      <div class="movie">
-        <h2>Loisirs</h2>
-        <?php while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) : ?> 
-            <p><?php echo htmlspecialchars($row['loisirs']); ?></p>
-         <?php endwhile; ?>
-        </div>
-    </section>
-    <section id="contact">
+
+
+    <!-- <section id="contact">
       <h2>Contact</h2>
       <div class="form">
         <form action="sent.html" method="post">
@@ -257,10 +280,11 @@
           <input type="submit" value="envoyer" />
         </form>
       </div>
-    </section>
+    </section> -->
+
   </main>
 
-  <footer>
+  <!-- <footer>
     <div class="socials">
       <a href="#" class="infoicon fa fa-envelope"></a>
       <a href="#" class="fa fa-linkedin"></a>
@@ -275,9 +299,11 @@
       <a href="#">test links</a>
       <a href="#">test links</a>
     </div>
-  </footer>
+  </footer> -->
 
   <script src="assets/js/activated.js"></script>
+  <script src="assets/js/sidebarnav.js"></script>
+
 </body>
 
 </html>

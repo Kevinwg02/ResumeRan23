@@ -2,7 +2,7 @@
     position: sticky;
     top: 0%;
     padding: 1.5% 5%;
-    background: rgb(82, 8, 166);
+    background:  var(--main-color);
     text-align: center;
     z-index: 1;
 }
