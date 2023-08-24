@@ -45,16 +45,14 @@ h3 {
 .sociallinks, #at{
   text-align: center;
 }
+.sociallinks a{
+  color: var(--main-color);
+}
 .socialsactuallinks a {
   color: whitesmoke;
   text-decoration: none;
   padding-right: 4%;
 }
-
-/* 
-#at, #map{
-  display: none;
-} */
 
 footer {
   padding-top: 50px;
