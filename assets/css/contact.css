@@ -1,16 +1,3 @@
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 20px;
-  height: 20px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-  border-radius: 50%;
-  color: white;
-  background: rgb(82, 8, 166);
-}
-
 .socials,
 .form {
   text-align: center;
@@ -26,17 +13,6 @@
   padding: 10px 25px;
   cursor: pointer;
 }
-
-
-/* .form input {
-  border-top: 0;
-  border-left: 0;
-  border-right: 0;
-  margin-bottom: 10%;
-  padding: 10px 25px;
-  cursor: pointer;
-} */
-
 
 .form .message {
   padding: 80px;

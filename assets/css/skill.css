@@ -12,7 +12,7 @@
 
 progress {
   accent-color: var(--main-color);
-  padding: 3%;
+  padding: 2% 3%;
   width: 100%;
 }
 
