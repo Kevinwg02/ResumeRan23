@@ -22,6 +22,8 @@
         left: -80px;
         top: 50px;
     }
-
+.menu img{
+    border: solid var(--main-color) 3.5px
+}
 
 }
