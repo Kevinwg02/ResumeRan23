@@ -11,4 +11,9 @@ The pictures opens in a modal to appear bigger.
 
 
 Here is a little timeline of my life ;) 
+<<<<<<< HEAD
 <img src="./assets/attachements/git_img/timeline.png"></img>
+=======
+<img src="./assets/attachements/git_img/timeline.png"></img>
+
+>>>>>>> 588fd8aa9c7e643ab5eacd4d24956d8cc926f2af
