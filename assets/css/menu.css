@@ -26,12 +26,15 @@
 }
 
 .menu img {
-    border-radius: 50%;
-    margin: -1.5% -2%;
-    position: relative;
+    transition: ease-in-out 1ms;
+
+    transform: translateY(500%);
+        border-radius: 50%;
+  /* position: relative; */
     float: right;
     height: 50px;
 }
+
 
 .linkpic {
     display: none;
@@ -40,4 +43,3 @@
 #memenu {
     display: none;
 }
-
