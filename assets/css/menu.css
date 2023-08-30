@@ -1,21 +1,19 @@
 .menu {
     position: sticky;
     top: 0%;
-    padding: 1.5% 5%;
-    background:  var(--main-color);
+    padding: 1.5% 2%;
+    background-color: var(--main-color);
     text-align: center;
     z-index: 1;
 
-    transition: ease-in-out 2s;
+    transition: ease-in-out 1ms;
     transform: translateX(50%);
     transform: translateY(0px);
 }
 
 .menu a:hover {
     background: rgb(255, 255, 255);
-    padding: 2% 0%;
-    padding-left: 2%;
-    padding-right: 2%;
+    padding: 1.5% 2%;
     color: black;
 }
 
@@ -26,11 +24,20 @@
     padding-left: 2%;
     padding-right: 2%;
 }
-.menu img{
+
+.menu img {
     border-radius: 50%;
     margin: -1.5% -2%;
     position: relative;
-    float: left;
+    float: right;
     height: 50px;
-
 }
+
+.linkpic {
+    display: none;
+}
+
+#memenu {
+    display: none;
+}
+
