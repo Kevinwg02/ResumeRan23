@@ -27,10 +27,7 @@
 
 .menu img {
     transition: ease-in-out 1ms;
-
-    transform: translateY(500%);
-        border-radius: 50%;
-  /* position: relative; */
+    border-radius: 50%;
     float: right;
     height: 50px;
 }
