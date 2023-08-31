@@ -14,4 +14,6 @@ Here is a little timeline of my life
 
 The responsive is quit fun with the main picture slowing getting smaller with animation
 <img src="./assets/attachements/git_img/mainresponsive.png"></img>
+
+ma head is what makes the menu appear
 <img src="./assets/attachements/git_img/responsivehead.png"></img>
