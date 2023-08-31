@@ -1,25 +1,18 @@
 // RPS
-
-// Get the modal
-var modalR = document.getElementById("myModal_Rps");
-
-// Get the image and insert it inside the modal - use its "alt" text as a caption
-var imgR = document.getElementById("rpsimg");
-var modalImgR = document.getElementById("modaltarget_rpsimg");
-var captionTextR = document.getElementById("caption");
-imgR.onclick = function () {
-  modalR.style.display = "block";
-  modalImgR.src = this.src;
-  captionTextR.innerHTML = this.alt;
+var modalRPS = document.getElementById("myModal_RPS");
+var imgRPS = document.getElementById("rpsimg");
+var modalImgRPS = document.getElementById("modaltarget_rpsimg");
+var captionTextRPS = document.getElementById("caption");
+imgRPS.onclick = function () {
+  modalRPS.style.display = "block";
+  modalImgRPS.src = this.src;
+  captionTextRPS.innerHTML = this.alt;
+};
+var spanRPS = document.getElementsByClassName("closeR")[0];
+spanRPS.onclick = function () {
+  modalRPS.style.display = "none";
 };
 
-// Get the <span> element that closes the modal
-var spanR = document.getElementsByClassName("closeR")[0];
-
-// When the user clicks on <span> (x), close the modal
-spanR.onclick = function () {
-  modalR.style.display = "none";
-};
 
 
 // Miniblog
