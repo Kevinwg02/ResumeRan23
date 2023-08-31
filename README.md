@@ -12,4 +12,6 @@ The pictures opens in a modal to appear bigger.
 Here is a little timeline of my life
 <img src="./assets/attachements/git_img/timeline.png"></img>
 
-<img src="./assets/attachements/git_img/timeline.png"></img>
+The responsive is quit fun with the main picture slowing getting smaller with animation
+<img src="./assets/attachements/git_img/mainresponsive.png"></img>
+<img src="./assets/attachements/git_img/responsivehead.png"></img>
