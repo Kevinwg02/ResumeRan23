@@ -14,7 +14,6 @@ spanRPS.onclick = function () {
 };
 
 
-
 // Miniblog
 var modalMB = document.getElementById("myModal_miniblog");
 var imgMB = document.getElementById("miniblogimg");

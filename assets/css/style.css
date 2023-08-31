@@ -3,7 +3,8 @@
   font-family: Roboto, sans-serif;
   --main-color: rgb(82, 8, 166);
   --secondary-color: rgb(18, 5, 32, 0.5);
-  --third-color: rgb(255, 255, 255); }
+  --third-color: rgb(255, 255, 255);
+}
 
 body {
   background-color: var(--background-color);
@@ -34,37 +35,71 @@ h3 {
   color: var(--main-color);
   font-family: Bebas Neue, sans-serif;
 }
-.sociallinks{
+
+.sociallinks {
   margin-top: -50%;
 }
-.sociallinks i{
+
+.sociallinks i {
   font-size: 3rem;
   margin-left: 20px;
 }
 
-.sociallinks, #at{
-  text-align: center;
-}
-.sociallinks a{
-  color: var(--main-color);
-}
-.socialsactuallinks a {
-  color: whitesmoke;
-  text-decoration: none;
-  padding-right: 4%;
+.sociallinks i:hover {
+  color: var(--secondary-color);
 }
 
-footer {
-  padding-top: 50px;
-  position: relative;
+.sociallinks,
+#at {
   text-align: center;
+}
+
+.sociallinks a {
+  color: var(--main-color);
+}
+
+
+
+
+
+footer {
+  padding: 2% 0%;
+  position: relative;
   bottom: 90%;
   height: 100px;
   width: 100%;
+  height: fit-content;
   background: var(--main-color);
+
+}
+.socialsactuallinks { 
+  padding: 0% 10%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: -15px;
+  color: var(--third-color);
 }
 
-fotter div{
-  margin-top: 150px;
+.socialsactuallinks a,
+.socialactuallinks div {
+  text-decoration: none;
+  color: var(--third-color);
+}
+
+.sociallinkfooter{
+  grid-column: 1;
+}
+.sociallinkproject {
+  grid-column: 2;
+}
+.footercontact {
+  grid-column: 3;
+}
+
+.footercontact p, .sociallinkfooter p, .sociallinkproject p{
+  font-size: 15px
+}
+.footercontact a, .sociallinkfooter a, .sociallinkproject a{
+  font-size: 9px;
 }
 
