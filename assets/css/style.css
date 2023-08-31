@@ -15,11 +15,14 @@ body {
 }
 
 main section {
-  /* margin-top: unset; */
   margin-left: 15%;
   margin-right: 15%;
   margin-bottom: 20%;
   scroll-margin-top: 5em;
+}
+
+.contact{
+  margin-top: 40%;
 }
 
 h2 {
@@ -97,7 +100,7 @@ footer {
 }
 
 .footercontact p, .sociallinkfooter p, .sociallinkproject p{
-  font-size: 15px
+  font-size: 11px
 }
 .footercontact a, .sociallinkfooter a, .sociallinkproject a{
   font-size: 9px;

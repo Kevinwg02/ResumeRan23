@@ -4,10 +4,6 @@
         font-weight: 700;
     }
 
-    .mypic {
-        grid-column: 1;
-    }
-
     .menu {
         padding: 2% 0%;
     }
@@ -16,9 +12,8 @@
         border: solid var(--main-color) 3.5px;
     }
 
-    .mypic img {
-        transition: ease-in-out 2s;
-        width: 100px;
+    .gridintro {
+        grid-template-columns: repeat(1, 1fr);
     }
 
     .titre {
@@ -26,9 +21,18 @@
         font-size: 21px;
     }
 
-    .gridintro {
-        grid-template-columns: repeat(1, 1fr);
+    .mypic {
+
+        grid-column: 1;
     }
+
+    .mypic img {
+        transition: ease-in-out 2s;
+        transform: translateX(50%);
+        transform: translateY(0px);
+        width: 100px;
+    }
+
 
     .sociallinks i {
         transition: ease-in-out 2s;

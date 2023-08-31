@@ -28,10 +28,6 @@
   margin-right: 10%;
 }
 
-.attachements {
-  grid-column: span 2;
-}
-
 .gridintro p,
 p {
   text-align: justify;
@@ -48,10 +44,24 @@ p {
 }
 
 .attachements {
-  border: solid 0.5px rgb(113, 107, 125);
+  background-color: var(--main-color);
+  color: var(--third-color);
+  border: none;
+  text-align: left;
+  grid-column: span 2;
+  margin: auto;
+  text-decoration: none;
   border-radius: 5px;
-  margin-bottom: 30%;
-  padding: 1% 1%;
+  padding: 5px 1%;
+  font-size: 20px;
+  font-family: Bebas Neue, sans-serif;
+}
+.attachements i{
+  float: right;  
+  margin: 3px;
+  font-size: 20px;
+  padding-left: 5px;
+  color: var(--third-color);
 }
 
 .dl_div a {
@@ -59,3 +69,4 @@ p {
   color: rgb(82, 8, 166);
   text-decoration: none;
 }
+
