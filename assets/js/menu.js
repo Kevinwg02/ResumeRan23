@@ -13,11 +13,11 @@ if (taille < 600) {
             document.getElementById("memenu").style.display = "none";
             document.querySelector(".menu").style.backgroundColor = "var(--main-color)";
             document.getElementById("memenulink").style.display = "none";
-
             document.getElementById("menuid").style.display = "block";
         }
         if (scroll > 400) {
             document.querySelector(".menu").style.backgroundColor = "white";
+
             document.getElementById("memenu").style.display = "block";
             document.getElementById("memenulink").style.display = "block";
             document.getElementById("menuid").style.display = "none";

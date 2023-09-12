@@ -33,6 +33,9 @@
         width: 100px;
     }
 
+    #memenu:hover {
+        opacity: 0.8;
+    }
 
     .sociallinks i {
         transition: ease-in-out 2s;
