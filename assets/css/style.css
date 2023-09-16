@@ -89,18 +89,19 @@ footer {
   color: var(--third-color);
 }
 
-.sociallinkfooter{
+
+.sociallinkproject {
   grid-column: 1;
 }
-.sociallinkproject {
+.footercontact {
   grid-column: 2;
 }
-.footercontact {
+.sociallinkfooter{
   grid-column: 3;
 }
 
 .footercontact p, .sociallinkfooter p, .sociallinkproject p{
-  font-size: 11px
+  font-size: 15px
 }
 .footercontact a, .sociallinkfooter a, .sociallinkproject a{
   font-size: 9px;

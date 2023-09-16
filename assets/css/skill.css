@@ -18,13 +18,18 @@ progress {
 
 .competence p {
   text-align: center;
+  padding-right: 10px;
 }
 
 .competence div{
   display: grid;
-  grid-template-columns:  40% 40%  40% ;
+  grid-template-columns:  45% 45% 45%;
   /* grid-template-columns: repeat(3,1fr); */
 }
+.skillcontainergrid{
+  margin-right: 10%;
+} 
+
 .element-skill{
   border: 1px solid var(--main-color);
   border-radius: 15px;
