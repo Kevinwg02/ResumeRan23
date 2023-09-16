@@ -15,5 +15,5 @@ Here is a little timeline of my life
 The responsive is quit fun, with the main picture slowing getting smaller with animation
 <img src="./assets/attachements/git_img/mainresponsive.png"></img>
 
-the menu dissapears by simply turning white my head is what makes the menu appear ^^ <br>
+the menu disappears by simply turning white my head is what makes the menu appear ^^ <br>
 <img src="./assets/attachements/git_img/responsivehead.png"></img>
