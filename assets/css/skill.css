@@ -12,8 +12,8 @@
 
 progress {
   accent-color: var(--main-color);
-  padding: 2% 3%;
-  width: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .competence p {
@@ -21,16 +21,17 @@ progress {
   padding-right: 10px;
 }
 
-.competence div{
+.competence div {
   display: grid;
-  grid-template-columns:  45% 45% 45%;
+  grid-template-columns: 45% 45% 45%;
   /* grid-template-columns: repeat(3,1fr); */
 }
-.skillcontainergrid{
-  margin-right: 10%;
-} 
 
-.element-skill{
+.skillcontainergrid {
+  margin-right: 10%;
+}
+
+.element-skill {
   border: 1px solid var(--main-color);
   border-radius: 15px;
   margin: 10px;
