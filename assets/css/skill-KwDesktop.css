@@ -14,7 +14,6 @@ progress {
   accent-color: var(--main-color);
   margin-top: auto;
   margin-bottom: auto;
-  width: auto;
 }
 
 .competence p {
