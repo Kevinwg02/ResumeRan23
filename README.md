@@ -1,4 +1,4 @@
-This is a very simplistic version of my 2023 resume.  
+This is a very simplistic, version 09.23 ,of my resume.  
 <img src="./assets/attachements/git_img/main.png"></img>
 The menu sticks to the top of the page when you scroll down.
 The pictures opens in a modal to appear bigger.
